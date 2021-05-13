@@ -1,0 +1,2 @@
+python game.py --train_data=input_file.txt --validation_data=input_file.txt --n_epoch=1000 --random_seed=21 --receiver_lr=1e-3 --sender_lr=1e-3 --max_len=2 --checkpoint_dir=./ --vocab_size=200 --sender_embedding=10 --receiver_embedding=10 --receiver_hidden=50 --sender_hidden=50 --temperature=1.2 --sender_cell=lstm --receiver_cell=lstm --st --bidirectional --no_cuda
+
